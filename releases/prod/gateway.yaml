@@ -6,7 +6,7 @@ metadata:
   namespace: prod
   annotations:
     flux.weave.works/automated: "true"
-    flux.weave.works/tag.container: semver:*
+    flux.weave.works/tag.container: glob:*
 spec:
   releaseName: gateway-prod
   forceUpgrade: true
